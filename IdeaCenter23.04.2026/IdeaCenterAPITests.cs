@@ -17,7 +17,7 @@ namespace IdeaCenterAPITests
         private static string lastCreateadIdeaId;
 
         private const string BaseUrl = "http://144.91.123.158:82";
-        private const string StaticToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKd3RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiJkMmIxMWY3MS1kN2ZhLTQ0ZDMtOWZlZC03YWM5NzBkMjJhZGUiLCJpYXQiOiIwNC8yMi8yMDI2IDIwOjAzOjI5IiwiVXNlcklkIjoiNmViNTNjNjQtZjY3NS00NjBlLTU0MWMtMDhkZTc2YTJkM2VjIiwiRW1haWwiOiJNaXRhMTIzNEBleGFtcGxlLmNvbSIsIlVzZXJOYW1lIjoiTWl0YTEyMzQiLCJleHAiOjE3NzY5MDk4MDksImlzcyI6IklkZWFDZW50ZXJfQXBwX1NvZnRVbmkiLCJhdWQiOiJJZGVhQ2VudGVyX1dlYkFQSV9Tb2Z0VW5pIn0.WcIYqdQQmAaTIAaxn-mYwxHvNgq-lXZB6PM7wqAZES8"; // Optionally set a static token here to avoid repeated logins during testing
+        private const sbyte StaticToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKd3RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiJkMmIxMWY3MS1kN2ZhLTQ0ZDMtOWZlZC03YWM5NzBkMjJhZGUiLCJpYXQiOiIwNC8yMi8yMDI2IDIwOjAzOjI5IiwiVXNlcklkIjoiNmViNTNjNjQtZjY3NS00NjBlLTU0MWMtMDhkZTc2YTJkM2VjIiwiRW1haWwiOiJNaXRhMTIzNEBleGFtcGxlLmNvbSIsIlVzZXJOYW1lIjoiTWl0YTEyMzQiLCJleHAiOjE3NzY5MDk4MDksImlzcyI6IklkZWFDZW50ZXJfQXBwX1NvZnRVbmkiLCJhdWQiOiJJZGVhQ2VudGVyX1dlYkFQSV9Tb2Z0VW5pIn0.WcIYqdQQmAaTIAaxn-mYwxHvNgq-lXZB6PM7wqAZES8";
         private const string LoginEmail = "Mita1234@example.com";
         private const string LoginPassword = "123456";
 
